@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ideas.CreateIdeas">
+<ImageView
+    android:id="@+id/img_for_project"
+    android:layout_marginTop="18dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/circle"
+    />
+    <EditText
+        android:id="@+id/name_idea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:hint="Idea Name"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:inputType="text"
+        android:maxLines="1"
+        android:background="@drawable/button_background"
+        android:layout_below="@id/img_for_project"/>
+    <EditText
+        android:id="@+id/det_idea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:hint="Idea Details"
+        android:textAlignment="center"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:inputType="text"
+        android:background="@drawable/button_background"
+        android:layout_below="@id/name_idea"/>
+
+    <EditText
+        android:id="@+id/edt_idea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:hint="How much do you need?"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:inputType="number"
+        android:maxLines="1"
+        android:background="@drawable/button_background"
+        android:layout_below="@id/det_idea"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_idea"
+        android:layout_marginTop="100dp"
+
+        android:text="Confirm"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"/>
+
+</RelativeLayout>
+</ScrollView>

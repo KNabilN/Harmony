@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserUsage.HelpToReduce"
+    android:background="#ffffff"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp"
+                android:src="@drawable/tree"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Plant a tree"
+                android:textColor="@color/checked"
+                android:textSize="24dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Planting trees is one of the biggest and cheapest ways to take CO2 out of the atmosphere"
+            android:textSize="20dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/checked"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textColor="@color/checked"
+            android:text="Shot a video and earn points"
+            android:gravity="center"/>
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="8dp"-->
+<!--        android:orientation="vertical"-->
+<!--        >-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:src="@drawable/cycle"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Ride a bike"-->
+<!--                android:textColor="@color/checked"-->
+<!--                android:textSize="24dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="center"-->
+<!--                android:textAlignment="center"/>-->
+<!--        </LinearLayout>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="According to a globally-significant report published in Oct. 2018 one of the ways of saving our world will be for more of us to cycle more frequently."-->
+<!--            android:textSize="20dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:textColor="@color/checked"/>-->
+
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:hint="Calculate Your emissions"-->
+<!--            android:gravity="center"/>-->
+<!--    </LinearLayout>-->
+</LinearLayout>
+
+</FrameLayout>

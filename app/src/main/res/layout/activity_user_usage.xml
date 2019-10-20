@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/cal_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".8"
+                    android:text="Calculate Your CO2 emision"
+                    android:textSize="24dp"
+                    android:textColor="#023859"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/line_cal"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#023859"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="16dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#023859"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="16dp"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/help_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".8"
+
+                    android:text="Help in reducing CO2"
+                    android:textSize="24dp"
+                    android:textColor="@color/grey"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/line_help"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#023859"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="16dp"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/userfragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            />
+
+    </LinearLayout>
+

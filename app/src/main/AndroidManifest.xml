@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gys.android.harmony">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Graphs.BarChart"></activity>
+        <activity android:name=".activityTwo" />
+        <activity android:name=".HarmonyHub" />
+        <activity android:name=".UserUsage.ProblemActivity" />
+        <activity android:name=".Ideas.CreateIdeas" />
+        <activity android:name=".UserUsage.UserUsageActivity" />
+        <activity android:name=".Regestiration.SignUp" />
+        <activity android:name=".Regestiration.Login" />
+        <activity android:name=".Ideas.ShowIdeas" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".Story.Story" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

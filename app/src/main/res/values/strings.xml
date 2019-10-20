@@ -1,0 +1,54 @@
+<resources>
+    <array name="power">
+        <item></item>
+        <item>Gas</item>
+        <item>Electricity</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <array name="Device">
+        <item></item>
+        <item>Car</item>
+        <item>Refrigerator</item>
+        <item>T.V.</item>
+        <item>Refrigerator</item>
+        <item>Refrigerator</item>
+
+    </array>
+    <array name="gas">
+        <item></item>
+        <item>LPG</item>
+        <item>Diesel</item>
+        <item>Petrol</item>
+
+    </array>
+
+    <array name="Cons">
+        <item></item>
+        <item>Small (4.0L/100KM)</item>
+        <item>Medium (6.0L/100KM)</item>
+        <item>Large (8.0L/100KM)</item>
+        <item>Very Large (10.0L/100KM)</item>
+
+    </array>
+
+    <string name="sea_leavel">57.4%
+        Sea level</string>
+    <string name="app_name">Harmony</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="using_imagination_technology_problem_solving_techniques_you_can_save_the_wold"><![CDATA[Using imagination, technology & problem solving techniques you can save the wold..!]]></string>
+    <string name="_57_4">57.4%</string>
+    <string name="sea_level">Sea level</string>
+    <string name="cairo">Cairo</string>
+    <string name="_7_8"> 7.8 %</string>
+    <string name="co2">Co2</string>
+    <string name="_22_3">22.3%</string>
+    <string name="temperature">temperature</string>
+    <string name="_2005_2019">2005 - 2019</string>
+
+    <string name="your_idea_save_the_world">your idea save the world</string>
+
+    <string name="your_action_makes_a_differents">your action makes a differents</string>
+
+
+</resources>

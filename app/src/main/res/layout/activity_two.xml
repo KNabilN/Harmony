@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityTwo"
+    android:padding="8dp">
+    <LinearLayout android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp"
+                android:src="@drawable/car"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Car Emissions"
+                android:textColor="@color/checked"
+                android:textSize="24dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate the number of tons your car emits into the atmosphere and offset your impact on the environment by purchasing reductions from the projects we fund"
+            android:textSize="20dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/checked"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/lay">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="My car engine runs on: "
+    android:textSize="24dp"
+
+    android:layout_marginTop="16dp"
+    />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:entries="@array/gas"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/layout2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consumption:"
+            android:textSize="24dp"
+
+            android:layout_marginTop="16dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/Cons"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Km/year:"
+        android:textSize="24dp"
+
+        android:layout_below="@id/lay3"
+        android:layout_marginTop="16dp"
+        />
+
+<EditText
+    android:id="@+id/btn_con"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginRight="18dp"
+    android:layout_marginLeft="18dp"
+    android:layout_below="@id/year"
+    android:inputType="number"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/button_background"
+    />
+
+    <Button
+        android:id="@+id/car_cal_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_con"
+        android:layout_marginTop="18dp"
+        android:textSize="24dp"
+        android:text="Calculate"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        />
+
+</RelativeLayout>
+</ScrollView>
